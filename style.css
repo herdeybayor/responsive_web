@@ -289,8 +289,9 @@ hr {
 	header nav {
 		float: none;
 		clear: both;
-		background: rgb(117 176 247);
 	}
+
+
 
 	#burger {
 		width: 100%;
@@ -304,6 +305,8 @@ hr {
 		height: 0;
 		overflow: hidden;
 	}
+header nav ul li {
+background: rgb(117 176 247);}
 
 	header nav ul.open {
 		height: auto;
