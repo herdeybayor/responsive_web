@@ -245,7 +245,7 @@ hr {
 
 input{
 	padding: 15px;
-	padding-right: 45px;
+	padding-right: 30px;
 	margin-bottom: -5px;
 	display: block;
 }
@@ -269,7 +269,7 @@ input{
 
 input{
 	padding: 15px;
-	padding-right: 45px;
+	padding-right: 30px;
 	margin-bottom: -5px;
 	display: block;
 }
@@ -313,6 +313,8 @@ input{
 		background: url(img/burger.png) no-repeat 98% center;
 		background-size: 30px;
 		cursor: pointer;
+float: right;
+display: inline-block;
 	}
 
 	header nav ul {
