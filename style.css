@@ -242,6 +242,13 @@ hr {
     #form ul {
     	margin-left: 30px
     }
+
+input{
+	padding: 15px;
+	padding-right: 45px;
+	margin-bottom: -5px;
+	display: block;
+}
 }
 
 /* Small Mobile Device */
@@ -259,6 +266,13 @@ hr {
 	    display: inline-block;
 	    font-size: 12px
     }
+
+input{
+	padding: 15px;
+	padding-right: 45px;
+	margin-bottom: -5px;
+	display: block;
+}
 }
 
 
