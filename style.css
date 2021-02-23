@@ -1,0 +1,313 @@
+* {
+	font-family: calibri;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/*border: 2px solid red;*/
+}
+
+#background {
+  background-image: -moz-linear-gradient( -31deg, rgb(0,97,213) 0%, rgb(79,161,251) 100%);
+  background-image: -webkit-linear-gradient( -31deg, rgb(0,97,213) 0%, rgb(79,161,251) 100%);
+  background-image: -ms-linear-gradient( -31deg, rgb(0,97,213) 0%, rgb(79,161,251) 100%);
+}
+
+h1.logo {
+	background-image: url(img/header.png);
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 80px;
+	text-indent: -10000px;
+	float: left;
+}
+
+header nav {
+	float: right;
+}
+
+header nav li{
+    float: left;
+    list-style-type: none;
+    margin: 25px 30px 10px 0px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+}
+
+header nav ul li a button {
+	padding: 7px 15px;
+	color: rgb(79,161,251);
+	font-weight: bold;
+	background-color: white;
+	border: transparent;
+	border-radius: 4px;
+	transform: translateY(-5px);
+	font-size: 12px;
+}
+
+#upper-txt {
+	color: white;
+}
+
+#upper-txt h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#upper-txt p {
+	text-align: center;
+}
+
+main section h2 {
+	clear: both;
+	padding-top: 50px;
+}
+
+main section ul {
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+main section ul li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+
+input[type=text], input[type=password] {
+	font-size: 15px;
+}
+
+.forms {
+	margin-top: 20px;
+}
+
+input{
+	padding: 15px;
+	padding-right: 72px;
+	margin-bottom: -5px;
+	display: block;
+}
+
+.user-region {
+	padding-left: 40px;
+	border-color: transparent;
+	border-radius: 4px;
+}
+
+.form-img {
+	transform: translate(-105px, -33px);
+}
+
+section form button {
+	font-size: 14px;
+	background: #7AD731;
+	border-color: transparent;
+	border-radius: 4px;
+	padding: 15px 55px;
+	color: white;
+	display: block;
+}
+
+.block-btn1, .block-btn2 {
+	display: block;
+	border-color: transparent;
+	border-radius: 4px;
+	margin-bottom: -15px;
+}
+
+.block-btn1  {
+	font-size: 14px;
+	background: white;
+	padding: 15px 55px;
+	color: blue;
+	font-weight: bold;
+}
+
+.block-btn2  {
+	font-size: 14px;
+	background: white;
+	padding: 15px 62px;
+	font-weight: bold;
+}
+
+.form-img2 {
+	transform: translate(-90px, -25px);
+}
+
+#option {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#option p, #option p a {
+	color: white;
+}
+
+footer ul li {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 50px;
+	margin-left: 150px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+footer ul li h4 {
+	margin-bottom: 10px;
+}
+
+footer ul li p {
+	margin-bottom: 5px;
+}
+
+footer div {
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+footer div a img {
+	margin-right: 15px;
+}
+
+#footer-img {
+	text-align: right;
+	margin-right: 90px;
+	margin-top: -130px;
+}
+
+#chat1, #chat2 {
+	float: right;
+	margin: 15px;
+}
+
+hr {
+	background-color: #B9B9B9;
+	height: 1px;
+	width: 90%;
+	clear: both;
+}
+
+#or2 {
+	display: none;
+}
+
+/* MEDIA QUERIES */
+
+/* Mobile Device */
+
+@media screen and (max-width: 480px){
+
+    footer ul li {
+
+	    margin-top: 0px;
+	    width: 20%;
+	    padding-bottom: 50px;
+	    margin-left: 50px;
+	    display: inline-block;
+    }
+
+    #share {
+	    margin-left: 50px;
+	    margin-top: -45px;
+    }
+    
+    #footer-copy {
+	    margin-left: 50px;
+    }
+
+    #footer-img {
+	    text-align: right;
+	    margin-right: 9px;
+	    margin-top: -130px;
+    }
+
+    #or {
+    	display: none;
+    }
+
+    #or2 {
+    	display: block;
+    	margin-top: 18px;
+    }
+
+    #form ul {
+    	margin-left: 30px
+    }
+}
+
+/* Small Mobile Device */
+
+@media screen and (max-width: 320px){
+	#footer-img img {
+		width: 100%;
+	}
+
+	footer ul li {
+	    margin-top: 0px;
+	    width: 20%;
+	    padding-bottom: 50px;
+	    margin-left: 50px;
+	    display: inline-block;
+	    font-size: 12px
+    }
+}
+
+
+/* Tablet Device */
+
+@media screen and (max-width: 840px){
+	header nav li {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 5px;
+		border-top: 1px solid blue;
+	}
+
+	header nav ul li a button {
+		background: rgb(255 255 255);
+		color: rgb(0,97,180);
+		font-weight: bold;
+		margin-top: 10px;
+	}
+
+	header nav ul li a {
+		color: rgb(0,97,213);
+		font-weight: bold;
+	}
+
+	header nav {
+		float: none;
+		clear: both;
+		background: rgb(117 176 247);
+	}
+
+	#burger {
+		width: 100%;
+		height: 40px;
+		background: url(img/burger.png) no-repeat 98% center;
+		background-size: 30px;
+		cursor: pointer;
+	}
+
+	header nav ul {
+		height: 0;
+		overflow: hidden;
+	}
+
+	header nav ul.open {
+		height: auto;
+	}
+}
+
+/* https://github.com/alepez/ */
